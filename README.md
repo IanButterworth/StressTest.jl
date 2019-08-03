@@ -20,7 +20,7 @@ Threads.@spawn dream(10)
 Threads.@spawn dream(10)
 Threads.@spawn dream(10)
 Threads.@spawn dream(10)
-end
+(System monitor then shows julia ramping up to ~400% for 10 seconds)
 ```
 
 
