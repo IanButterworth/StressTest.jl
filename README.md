@@ -9,12 +9,3 @@ A collection of convenience functions for stress testing purposes.
 [![Codecov](https://codecov.io/gh/ianshmean/StressTest.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/ianshmean/StressTest.jl)
 [![Coveralls](https://coveralls.io/repos/github/ianshmean/StressTest.jl/badge.svg?branch=master)](https://coveralls.io/github/ianshmean/StressTest.jl?branch=master)
 [![Build Status](https://api.cirrus-ci.com/github/ianshmean/StressTest.jl.svg)](https://cirrus-ci.com/github/ianshmean/StressTest.jl)
-
-
-## CPU load testing
-```
-    dream(seconds)
-
-Like sleep() except maxes out the thread for a specified number of seconds. The minimum dream time is 1
-millisecond or input of `0.001`.
-```
