@@ -9,3 +9,8 @@ A collection of convenience functions for stress testing purposes.
 [![Codecov](https://codecov.io/gh/ianshmean/StressTest.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/ianshmean/StressTest.jl)
 [![Coveralls](https://coveralls.io/repos/github/ianshmean/StressTest.jl/badge.svg?branch=master)](https://coveralls.io/github/ianshmean/StressTest.jl?branch=master)
 [![Build Status](https://api.cirrus-ci.com/github/ianshmean/StressTest.jl.svg)](https://cirrus-ci.com/github/ianshmean/StressTest.jl)
+
+## CPU loading
+`dream(seconds)` - Like `Base.sleep(seconds)` except it maxes out the thread
+
+PR's welcome!
