@@ -13,4 +13,15 @@ A collection of convenience functions for stress testing purposes.
 ## CPU loading
 - `dream(seconds)` - Like `Base.sleep(seconds)` except it maxes out the thread
 
+For instance, for testing multithreaded CPU loading in Julia 1.3-alpha
+```julia
+using StressTest
+Threads.@spawn dream(10)
+Threads.@spawn dream(10)
+Threads.@spawn dream(10)
+Threads.@spawn dream(10)
+end
+```
+
+
 PR's welcome!
