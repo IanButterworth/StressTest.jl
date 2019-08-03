@@ -11,6 +11,6 @@ A collection of convenience functions for stress testing purposes.
 [![Build Status](https://api.cirrus-ci.com/github/ianshmean/StressTest.jl.svg)](https://cirrus-ci.com/github/ianshmean/StressTest.jl)
 
 ## CPU loading
-`dream(seconds)` - Like `Base.sleep(seconds)` except it maxes out the thread
+- `dream(seconds)` - Like `Base.sleep(seconds)` except it maxes out the thread
 
 PR's welcome!
