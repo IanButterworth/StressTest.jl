@@ -8,7 +8,7 @@ makedocs(;
     ],
     repo="https://github.com/ianshmean/StressTest.jl/blob/{commit}{path}#L{line}",
     sitename="StressTest.jl",
-    authors="Ian <i.r.butterworth@gmail.com>",
+    authors="Ian Butterworth <i.r.butterworth@gmail.com>",
     assets=String[],
 )
 
