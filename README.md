@@ -2,6 +2,8 @@
 
 A collection of convenience functions for stress testing purposes.
 
+*Disclaimer: Use at your own risk. Stress testing may damage hardware.*
+
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://ianshmean.github.io/StressTest.jl/stable)
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://ianshmean.github.io/StressTest.jl/dev)
 [![Build Status](https://travis-ci.com/ianshmean/StressTest.jl.svg?branch=master)](https://travis-ci.com/ianshmean/StressTest.jl)
