@@ -1,10 +1,9 @@
 name = "StressTest"
 uuid = "6e3341f8-3a0d-4582-a093-9d6e6d36caf8"
-authors = ["Ian <i.r.butterworth@gmail.com>"]
-version = "0.1.0"
+authors = ["Ian Butterworth <i.r.butterworth@gmail.com>"]
+version = "0.2.0"
 
 [deps]
-DocumenterTools = "35a29f4d-8980-5a13-9543-d66fff28ecb8"
 
 [compat]
 julia = "1"
