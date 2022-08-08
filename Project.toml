@@ -1,7 +1,7 @@
 name = "StressTest"
 uuid = "6e3341f8-3a0d-4582-a093-9d6e6d36caf8"
 authors = ["Ian Butterworth <i.r.butterworth@gmail.com>"]
-version = "0.2.0"
+version = "0.2.1"
 
 [deps]
 
